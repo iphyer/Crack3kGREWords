@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Crack3kgrewords : Crack3kGREWords helps you remember GRE word essence ">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Crack3kgrewords</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/iphyer/Crack3kGREWords">View on GitHub</a>
+
+          <h1 id="project_title">Crack3kgrewords</h1>
+          <h2 id="project_tagline">Crack3kGREWords helps you remember GRE word essence </h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/iphyer/Crack3kGREWords/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/iphyer/Crack3kGREWords/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="再要你命3k单词默写出题程序" class="anchor" href="#%E5%86%8D%E8%A6%81%E4%BD%A0%E5%91%BD3k%E5%8D%95%E8%AF%8D%E9%BB%98%E5%86%99%E5%87%BA%E9%A2%98%E7%A8%8B%E5%BA%8F" aria-hidden="true"><span class="octicon octicon-link"></span></a>《再要你命3k单词》默写出题程序</h1>
+
+<h2>
+<a id="起因" class="anchor" href="#%E8%B5%B7%E5%9B%A0" aria-hidden="true"><span class="octicon octicon-link"></span></a>起因</h2>
+
+<p>参加陈琦老师的330club让我见识了一种非常好的单词背诵方法，简单说就是把需要背诵的单词都写在一张纸上，然后看着英文默写中文，不求多准确，多义词写出所有的词义，但是一定要强迫自己去记忆。同时不断订正。</p>
+
+<h2>
+<a id="使用过程" class="anchor" href="#%E4%BD%BF%E7%94%A8%E8%BF%87%E7%A8%8B" aria-hidden="true"><span class="octicon octicon-link"></span></a>使用过程</h2>
+
+<p>但是每次生成这个默写文件是非常耗费时间的，所以写了这个程序。主要使用过程是：</p>
+
+<ol>
+<li>从你指定的List号码中抽取所有单词，比如11,22,13,31,2。 这里所有数字需要用逗号隔开，同时保证输入数字在1~31之间(因为《再要你命3k》只有31个List)。当然这里是不要求顺序输入的，所以你可以1,15,31这样的跳着默写。</li>
+<li>将指定的数组中所有list的单词全部抽取出来并且乱序排序。</li>
+<li>然后生成两个txt文件，其中Eng.txt是所有的单词，而Chn.txt包含全部的对应Eng.txt英文的单词中文解释。</li>
+<li>这样你就可以用任何你喜欢的编辑器默写中文，对照订正。同时，你既可以使用电子版本默写订正，也可以使用利用word，WPS等文字处理软件的分栏功能进行分栏后打印出来，使用纸质版默写订正。</li>
+<li>当然你如果新建一个ChnNew.txt默写中文，在Linux下就可以使用Linux的<code>diff</code>命令，自动化检查。Windows用的不多，征求大家建议看有什么好的检查方法。</li>
+</ol>
+
+<h2>
+<a id="整体效果" class="anchor" href="#%E6%95%B4%E4%BD%93%E6%95%88%E6%9E%9C" aria-hidden="true"><span class="octicon octicon-link"></span></a>整体效果</h2>
+
+<h3>
+<a id="windows" class="anchor" href="#windows" aria-hidden="true"><span class="octicon octicon-link"></span></a>Windows</h3>
+
+<p><img src="https://github.com/iphyer/Crack3kGREWords/blob/master/ScreenShot/Windows/win.png" alt="Win整体效果"></p>
+
+<h3>
+<a id="linux" class="anchor" href="#linux" aria-hidden="true"><span class="octicon octicon-link"></span></a>Linux</h3>
+
+<p><img src="https://github.com/iphyer/Crack3kGREWords/blob/master/ScreenShot/Linux/L3.png" alt="Linux整体效果"></p>
+
+<h2>
+<a id="使用步骤以windows为例" class="anchor" href="#%E4%BD%BF%E7%94%A8%E6%AD%A5%E9%AA%A4%E4%BB%A5windows%E4%B8%BA%E4%BE%8B" aria-hidden="true"><span class="octicon octicon-link"></span></a>使用步骤(以windows为例)</h2>
+
+<ol>
+<li>解压win32and64.zip文件</li>
+<li>打开解压后文件，选择<code>dist</code>文件夹进入，可以看到<code>ZYNM3k.exe</code>这个程序，点击打开</li>
+<li>在出现的文本框中输入如下的数字串，1,2,3。使用英文输入逗号，不要有空格</li>
+<li>点击<code>RUN</code>按钮就可以在当前文件夹看到生成的<code>Chn.txt</code>和<code>Eng.txt</code>
+</li>
+</ol>
+
+<p>至于Linux的使用者，我公布了源代码，直接运行源代码都是可以的。如果使用打包后的程序可能可能需要赋予执行权限。</p>
+
+<h2>
+<a id="技术细节" class="anchor" href="#%E6%8A%80%E6%9C%AF%E7%BB%86%E8%8A%82" aria-hidden="true"><span class="octicon octicon-link"></span></a>技术细节：</h2>
+
+<p>Crack3kGREWords主要使用Python，同时使用SQLite作为数据后台存储单词的中英文，Tkinter制作GUI界面。然后利用cxfreeze生成Linux可执行程序，py2exe生成可以windows使用的执行程序。</p>
+
+<h2>
+<a id="注意" class="anchor" href="#%E6%B3%A8%E6%84%8F" aria-hidden="true"><span class="octicon octicon-link"></span></a>注意</h2>
+
+<p>windows版本32位和64位操作系统都可以使用，Linux只在64位的Ubuntu14.04测试成功</p>
+
+<h1>
+<a id="crack3kgrewords" class="anchor" href="#crack3kgrewords" aria-hidden="true"><span class="octicon octicon-link"></span></a>Crack3kGREWords</h1>
+
+<p>Crack3kGREWords helps you remember GRE word essence </p>
+
+<p>Crack3kGREWords uses python as the main language and SQLite to store the data and Tkinter for GUI.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Crack3kgrewords maintained by <a href="https://github.com/iphyer">iphyer</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
