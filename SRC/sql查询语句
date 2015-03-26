@@ -1,0 +1,35 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Mar 23 20:36:37 2015
+
+@author: iphyer
+"""
+
+
+
+SELECT Column1 AS Eng,Column2 AS Chn, random() AS r 
+FROM list1
+UNION ALL
+SELECT Column1 AS Eng,Column2 AS Chn, random() AS r
+FROM list2
+UNION ALL
+SELECT Column1 AS Eng,Column2 AS Chn, random() AS r
+FROM list21
+UNION ALL
+SELECT Column1 AS Eng,Column2 AS Chn, random() AS r
+FROM list31
+ORDER BY r
+
+SELECT Column1 AS Eng,Column2 AS Chn, random() AS r FROM list1 UNION ALL SELECT Column1 AS Eng,Column2 AS Chn, random() AS r FROM list2 UNION ALL SELECT Column1 AS Eng,Column2 AS Chn, random() AS r FROM list21 UNION ALL SELECT Column1 AS Eng,Column2 AS Chn, random() AS r FROM list31 ORDER BY r
+
+
+SELECT Column1 AS Eng,Column2 AS Chn, random() AS r FROM list
+1
+UNION ALL SELECT Column1 AS Eng,Column2 AS Chn, random() AS r FROM list
+2
+UNION ALL SELECT Column1 AS Eng,Column2 AS Chn, random() AS r FROM list
+21
+UNION ALL SELECT Column1 AS Eng,Column2 AS Chn, random() AS r FROM list
+31
+
+ORDER BY r
