@@ -1,0 +1,9 @@
+('C:\\Python27\\PyInstaller-2.1\\ZYNM3k\\dist\\ZYNM3k.exe',
+ False,
+ False,
+ 'D:\\SRC\\icon.ico',
+ None,
+ [],
+ None,
+ False,
+ 1429860706L)
