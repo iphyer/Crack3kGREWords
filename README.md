@@ -32,7 +32,7 @@
 
 ###2.0版本
 
-[2.0版本windows](http://pan.baidu.com/s/1ntp9yEd)
+[2.0版本windows](http://pan.baidu.com/s/1pJqRN4n)
 
 添加"完成"对话框指示程序进度和退出按钮,此次只更新windows程序。换用PyInstaller打包，适合win7以及winXP使用。
 
