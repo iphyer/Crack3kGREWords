@@ -4,6 +4,8 @@
 
 参加陈琦老师的330club让我见识了一种非常好的单词背诵方法，简单说就是把需要背诵的单词都写在一张纸上，然后看着英文默写中文，不求多准确或者写出所有的词义，但是一定要强迫自己去记忆。同时不断订正。
 
+在这儿写了篇博文详细介绍了下这个软件的功能和用法。[再要你命3k默写程序:crack3kgrewords](http://iphyer.github.io/blog/2015/04/26/crack3k/)
+
 ##使用过程
 
 但是每次生成这个默写文件是非常耗费时间的，所以写了这个程序。主要使用过程是：
@@ -34,8 +36,15 @@
 
 添加"完成"对话框指示程序进度和退出按钮,此次只更新windows程序。换用PyInstaller打包，适合win7以及winXP使用。
 
+**注意**
+
+1. **文件路径中请不要包含中文名.**
+2. **请务必解压后使用而不是用自带查看工具打开.**
+
 ###1.0版本
 [windows版本](http://pan.baidu.com/s/1sjnyvpj)
+
+**注意:1.0版本不会提示已经生成完毕,查看`Eng.txt`和`Chn.txt`的生成时间即可.**
 
 [Linux版本](http://pan.baidu.com/s/1mgKc8J2)
 
@@ -69,4 +78,3 @@ windows版本32位和64位操作系统都可以使用，Linux只在64位的Ubunt
 Crack3kGREWords helps you remember GRE word essence 
 
 Crack3kGREWords uses python as the main language and SQLite to store the data and Tkinter for GUI.
-
