@@ -36,8 +36,15 @@
 
 添加"完成"对话框指示程序进度和退出按钮,此次只更新windows程序。换用PyInstaller打包，适合win7以及winXP使用。
 
+**注意**
+
+1. **文件路径中请不要包含中文名.**
+2. **请务必解压后使用而不是用自带查看工具打开.**
+
 ###1.0版本
 [windows版本](http://pan.baidu.com/s/1sjnyvpj)
+
+**注意:1.0版本不会提示已经生成完毕,查看`Eng.txt`和`Chn.txt`的生成时间即可.**
 
 [Linux版本](http://pan.baidu.com/s/1mgKc8J2)
 
@@ -71,4 +78,3 @@ windows版本32位和64位操作系统都可以使用，Linux只在64位的Ubunt
 Crack3kGREWords helps you remember GRE word essence 
 
 Crack3kGREWords uses python as the main language and SQLite to store the data and Tkinter for GUI.
-
