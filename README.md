@@ -78,3 +78,6 @@ windows版本32位和64位操作系统都可以使用，Linux只在64位的Ubunt
 Crack3kGREWords helps you remember GRE word essence 
 
 Crack3kGREWords uses python as the main language and SQLite to store the data and Tkinter for GUI.
+
+
+# Try upstream
