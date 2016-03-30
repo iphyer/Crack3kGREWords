@@ -79,4 +79,3 @@ Crack3kGREWords helps you remember GRE word essence
 
 Crack3kGREWords uses python as the main language and SQLite to store the data and Tkinter for GUI.
 
-Have fun with your GRE TEST!
