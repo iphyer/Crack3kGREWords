@@ -30,6 +30,12 @@
 ##直接下载链接
 很多同学说不会用Github，好吧，这里是百度云的下载链接。
 
+###百度云下载地址
+
+[百度云下载链接](https://pan.baidu.com/s/1pJqRN4n)
+
+URL : https://pan.baidu.com/s/1pJqRN4n
+
 ###2.0版本
 
 [2.0版本windows](http://pan.baidu.com/s/1pJqRN4n)
