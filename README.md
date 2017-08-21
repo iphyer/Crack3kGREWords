@@ -1,12 +1,12 @@
-#《再要你命3k单词》默写出题程序
+# 《再要你命3k单词》默写出题程序
 
-##起因
+## 起因
 
 参加陈琦老师的330club让我见识了一种非常好的单词背诵方法，简单说就是把需要背诵的单词都写在一张纸上，然后看着英文默写中文，不求多准确或者写出所有的词义，但是一定要强迫自己去记忆。同时不断订正。
 
 在这儿写了篇博文详细介绍了下这个软件的功能和用法。[再要你命3k默写程序:crack3kgrewords](http://iphyer.github.io/blog/2015/04/26/crack3k/)
 
-##使用过程
+## 使用过程
 
 但是每次生成这个默写文件是非常耗费时间的，所以写了这个程序。主要使用过程是：
 
@@ -16,27 +16,27 @@
 4. 这样你就可以用任何你喜欢的编辑器默写中文，对照订正。同时，你既可以使用电子版本默写订正比如利用word，WPS等文字处理软件，也可以分栏之后打印出来，使用纸质版默写订正。
 5. 当然你如果新建一个ChnNew.txt默写中文，在Linux下就可以使用Linux的`diff`命令，自动化检查。Windows用的不多，征求大家建议看有什么好的检查方法。
 
-##整体效果
+## 整体效果
 国内找不到好图床，就用新浪微博了。
-###Windows
+### Windows
 
 ![Win7整体效果](http://ww2.sinaimg.cn/mw690/4c20fe7bjw1ergpmtz7lij21am0qf7fn.jpg)
 
 ![WinXP整体效果](http://ww2.sinaimg.cn/mw690/4c20fe7bjw1ergpmyyawgj21ao0qgk3q.jpg)
-###Linux
+### Linux
 
 ![Linux整体效果](http://ww1.sinaimg.cn/mw690/4c20fe7bjw1eqjjg3b39ej21750qj139.jpg)
 
-##直接下载链接
+## 直接下载链接
 很多同学说不会用Github，好吧，这里是百度云的下载链接。
 
-###百度云下载地址
+### 百度云下载地址
 
 [百度云下载链接](https://pan.baidu.com/s/1pJqRN4n)
 
 URL : https://pan.baidu.com/s/1pJqRN4n
 
-###2.0版本
+### 2.0版本
 
 [2.0版本windows](http://pan.baidu.com/s/1pJqRN4n)
 
@@ -49,7 +49,7 @@ URL : https://pan.baidu.com/s/1pJqRN4n
 
 [Linux版本](http://pan.baidu.com/s/1mgKc8J2)
 
-##使用步骤(以windows为例)
+## 使用步骤(以windows为例)
 
 1. 解压win32and64.zip文件
 2. 打开解压后文件，选择`dist`文件夹进入，可以看到`ZYNM3k.exe`这个程序，点击打开
@@ -58,7 +58,7 @@ URL : https://pan.baidu.com/s/1pJqRN4n
 
 至于Linux的使用者，我公布了源代码，直接运行源代码都是可以的。如果使用打包后的程序可能可能需要赋予执行权限。
 
-##琦叔在微臣是怎么教你背单词的
+## 琦叔在微臣是怎么教你背单词的
 
 展示一下，来自再要你命3000的微博，都是微臣上课的同学提供的，版权属于他们。
 
@@ -66,11 +66,11 @@ URL : https://pan.baidu.com/s/1pJqRN4n
 
 ![样例2](http://ww3.sinaimg.cn/mw1024/b0041fc7jw1ep8mcaed88j20f10miq6z.jpg)
 
-##技术细节：
+## 技术细节
 
 Crack3kGREWords主要使用Python，同时使用SQLite作为数据后台存储单词的中英文，Tkinter制作GUI界面。然后利用cxfreeze生成Linux可执行程序，PyInstaller生成可以windows使用的执行程序。
 
-##注意
+## 注意
 
 windows版本32位和64位操作系统都可以使用，Linux只在64位的Ubuntu14.04测试成功
 
