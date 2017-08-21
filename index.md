@@ -41,11 +41,6 @@
 1. **文件路径中请不要包含中文名.**
 2. **请务必解压后使用而不是用自带查看工具打开.**
 
-###1.0版本
-[windows版本](http://pan.baidu.com/s/1sjnyvpj)
-
-**注意:1.0版本不会提示已经生成完毕,查看`Eng.txt`和`Chn.txt`的生成时间即可.**
-
 [Linux版本](http://pan.baidu.com/s/1mgKc8J2)
 
 ##使用步骤(以windows为例)
