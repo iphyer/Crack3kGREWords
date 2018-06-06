@@ -125,7 +125,7 @@ def input_reforming(s):
     return sql_whole
 
 def writefile(rows):
-    file_eng= open ("Eng.txt","w+")
+    file_eng= codecs.open ("Eng.txt","w+","utf-8")
     file_chn= codecs.open ("Chn.txt","w+","utf-8")
     for row in rows:
         file_eng.write("%s  \n" % row[0])
