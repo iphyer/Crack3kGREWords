@@ -23,6 +23,7 @@
 ![Win7整体效果](http://ww2.sinaimg.cn/mw690/4c20fe7bjw1ergpmtz7lij21am0qf7fn.jpg)
 
 ![WinXP整体效果](http://ww2.sinaimg.cn/mw690/4c20fe7bjw1ergpmyyawgj21ao0qgk3q.jpg)
+
 ### Linux
 
 ![Linux整体效果](http://ww1.sinaimg.cn/mw690/4c20fe7bjw1eqjjg3b39ej21750qj139.jpg)
